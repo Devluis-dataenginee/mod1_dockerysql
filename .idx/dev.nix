@@ -8,13 +8,19 @@
     # pkgs.go
     pkgs.python314
     pkgs.uv
+    pkgs.docker
+    pkgs.postgresql_16
     # pkgs.python311Packages.pip
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
   ];
   # Sets environment variables in the workspace
-  env = {};
-  idx = {
+  services.docker.enable = true;
+    services.postgres = {
+        enable = true;
+            package = pkgs.postgresql_16;
+              };
+                idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       # "vscodevim.vim"
