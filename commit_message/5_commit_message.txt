@@ -1,0 +1,5 @@
+feat: Añadir script para consultar viajes cortos
+
+Este script se conecta a la base de datos `ny_taxi` y calcula el número de viajes de taxi verde con una distancia menor o igual a 1.0 milla para noviembre de 2025.
+
+La respuesta a la consulta es 8007.
