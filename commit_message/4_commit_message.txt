@@ -1,0 +1,5 @@
+feat: Implementación de carga de datos y respuestas del módulo
+
+Este commit introduce la funcionalidad para cargar datos de viajes de taxi en una base de datos PostgreSQL. Se incluye el script `cargar_green_taxi.py` que maneja la ingesta de datos desde un archivo Parquet.
+
+Además, se actualiza el archivo `README.md` con las respuestas a las preguntas del módulo 1, detallando la versión de `pip` en la imagen de Docker y la configuración de red para la conexión a la base de datos. Se añade también la configuración de `docker-compose.yaml` para orquestar los servicios de la aplicación y la base de datos.

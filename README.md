@@ -17,7 +17,7 @@ Nombre del proyecto: mod1_dockerysql
 Versión:0.1.0
 Descripción:Este es un proyecto de inicio para desarrollar aplicaciones en Python.
 Versión de Python requerida: >=3.11
-Dependencias: Ninguna
+Dependencias: ["pandas", "sqlalchemy", "psycopg2", "pyarrow"]
 
 ## Pregunta 1. Comprensión de las imágenes de Docker
 Ejecuta Docker con la imagen `python:3.13`. Usa un punto de entrada `bash` para interactuar con el contenedor.
@@ -35,3 +35,5 @@ Respuesta :
 Hostname: db (o postgres)
 Port: 5432
 Nota: La opción db:5432 es la más estándar en Docker Compose, ya que el nombre del servicio es el identificador principal. Sin embargo, debido a que configuraste container_name: postgres, postgres:5432 también es técnicamente correcto y funcional.
+
+
