@@ -41,7 +41,7 @@ Nota: La opción db:5432 es la más estándar en Docker Compose, ya que el nombr
 
 Para los viajes de noviembre de 2025 (fecha de recogida lpep entre el 01/11/2025 y el 01/12/2025, sin contar el límite superior), ¿cuántos viajes tuvieron una distancia de viaje menor o igual a 1 milla?
 
-# comando en terminal bash : 
+## comando en terminal bash : 
 docker exec -it postgres psql -U postgres -d ny_taxi -c "SELECT COUNT(*) FROM green_taxi_data WHERE lpep_pickup_datetime >= '2025-11-01' AND lpep_pickup_datetime < '2025-12-01' AND trip_distance <= 1.0;">>
 
 Respuesta : 8007
@@ -53,4 +53,13 @@ se ejecuto el comando : ./.venv/bin/python query_viajes_cortos.py
 Respuesta : 8007
 ____
 
+## Pregunta 4. Viaje más largo de cada día
+
+¿Cuál fue el día de recogida con la mayor distancia de viaje? Considere solo los viajes con `trip_distance` inferior a 160 km (para descartar errores de datos).
+
+Respuesta : 
+
+La mayor distancia fue de: 88.03 km/millas
+El día registrado fue: 2025-11-14
+----
 

@@ -1,0 +1,7 @@
+feat(data-analysis): Agrega script para calcular el viaje más largo
+
+Se conecta a la base de datos PostgreSQL 'ny_taxi'.
+Ejecuta una consulta SQL para encontrar el día con el viaje de mayor distancia en la tabla 'green_taxi_data'.
+Filtra los datos para eliminar valores atípicos (distancia < 160).
+Imprime la fecha y la distancia del viaje más largo.
+Verifica si el resultado coincide con una lista de opciones predefinidas.
