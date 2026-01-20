@@ -67,9 +67,21 @@ El día registrado fue: 2025-11-14
 
 ¿Cuál fue la zona de recogida con el mayor importe total (suma de todos los viajes) el 18 de noviembre de 2025?
 
+Respuesta : 
+
 ZONA: East Harlem North 
 IMPORTE TOTAL: 9281.92
 ----
 
+## Pregunta 6. Propina más alta
+
+Para los pasajeros recogidos en la zona denominada "East Harlem North" en noviembre de 2025, ¿cuál fue la zona de descenso con la propina más alta?
+
+Nota: Se dice "propina", no "viaje". Necesitamos el nombre de la zona, no el ID.
+
+Respuesta : 
+
+Zona de destino: Yorkville West
+Propina más alta: $81.89
 
 

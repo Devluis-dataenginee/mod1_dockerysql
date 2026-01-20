@@ -1,0 +1,4 @@
+feat: Añade respuesta a la Pregunta 6 (Propina más alta)
+
+Añade la solución a la "Pregunta 6. Propina más alta" en el archivo README.md.
+La respuesta indica "Zona de destino: Yorkville West" y "Propina más alta: $81.89".
