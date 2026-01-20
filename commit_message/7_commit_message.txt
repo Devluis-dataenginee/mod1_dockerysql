@@ -1,0 +1,7 @@
+feat(data-analysis): Añadir script para encontrar la zona de recogida con mayor importe
+
+Este script se conecta a la base de datos ny_taxi y encuentra la zona de recogida con el mayor importe total el 18 de noviembre de 2025.
+Realiza un JOIN con la tabla de zonas para obtener el nombre de la zona.
+
+ZONA: East Harlem North
+IMPORTE TOTAL: 9281.92

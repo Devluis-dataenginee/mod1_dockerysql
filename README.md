@@ -62,4 +62,14 @@ Respuesta :
 La mayor distancia fue de: 88.03 km/millas
 El día registrado fue: 2025-11-14
 ----
+ 
+## Pregunta 5. Mayor zona de recogida
+
+¿Cuál fue la zona de recogida con el mayor importe total (suma de todos los viajes) el 18 de noviembre de 2025?
+
+ZONA: East Harlem North 
+IMPORTE TOTAL: 9281.92
+----
+
+
 
